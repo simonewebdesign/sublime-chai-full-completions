@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+it('${1:expectation}', () =>
+  expect($2).to.equal($3));
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>its</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>It (with implicit return)</description>
+</snippet>

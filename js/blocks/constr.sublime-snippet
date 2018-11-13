@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+constructor(props) {
+  super(props);
+
+  this.state = {
+    $1: $2,$0
+  };
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>constr</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>constructor (for this.state)</description>
+</snippet>

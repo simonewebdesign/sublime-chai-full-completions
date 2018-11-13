@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+describe('when I $1', () => {
+  before(() => wrapper.find('button').simulate('$1'));
+
+  it('calls the right action', () =>
+    expect(wrapper.instance().props.$2).to.have.been.called.once$0);
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>describeev</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Describe event</description>
+</snippet>

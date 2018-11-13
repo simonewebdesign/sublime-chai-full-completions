@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+const { $1 } = this.props;
+
+$0
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>conprops</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>const {...} = this.props</description>
+</snippet>

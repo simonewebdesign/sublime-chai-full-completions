@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+import './style';
+
+export default class ${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/} extends React.Component {
+  render() {
+    return (
+      $1
+    );
+  }
+}
+$0
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>reactcomp</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>React Component (class)</description>
+</snippet>

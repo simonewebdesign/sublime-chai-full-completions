@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import Component from '/common/components/${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/}';
+
+describe('${TM_FILEPATH/^.*\/([^\/]+)\/[^\/]+$/$1/}', () => {
+  const wrapper = shallow(<Component onClick={ spy() } onChange={ spy() } />);
+
+  it('renders without errors', () =>
+    expect(wrapper.hasClass('$0')).to.be.true);
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>reacttest</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>React Component (test)</description>
+</snippet>

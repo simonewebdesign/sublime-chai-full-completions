@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+it('~~DEBUG~~', () => {
+  console.log('~~DEBUG~~', wrapper$0.debug());
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>deb</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Debug react comp in test</description>
+</snippet>
